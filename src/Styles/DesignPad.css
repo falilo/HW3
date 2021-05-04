@@ -1,0 +1,7 @@
+.designpad-button {
+    margin: 0 1rem;
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 5%;
+  }

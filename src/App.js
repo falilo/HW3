@@ -1,14 +1,23 @@
-import React from 'react';
-//import logo from './logo.svg';
-import './App.css';
-import DesignContainer from './components/DesignContainer';
+import React from 'react'
+
+import Header from './components/Header'
+import PadInput from './components/PadInput'
+import DesignBoard from './components/DesignBoard'
+
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <DesignContainer />
+    <div className='App'>
+       <div className='header'>
+        <Header />
+      </div>
+      <div className='pad-container'>
+        <PadInput />
+      </div>
+      <DesignBoard />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
